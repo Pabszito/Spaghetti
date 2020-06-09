@@ -1,0 +1,177 @@
+# Welcome to the messages.yml file.
+# Here you can change all the messages from Simplessentials.
+# Messages related to other's plugins *cannot* be changed here.
+# Having problems?
+# - Go to the resource in spigot
+# - If you have discord, go to features and click on the discord support.
+# - Else if you don't have discord, contact me on Spigot with a DM or explain me your problem in the Discussion (not in reviews).
+# Thank you.
+# (pst!, the best day to contact me is Saturday or Sunday.)
+#
+
+Messages:
+   general:
+      no_argument_set: '&8[&c!&8] &fYou need to specify an argument.'
+      cant_execute_from_console: '&8[&c!&8] &fOnly the players can do that.'
+      no_perm: '&8[&c!&8] &fYou don''t have permission to execute that command.'
+      no_valid_argument: '&8[&c!&8] &fYou need to specify a valid argument!'
+      player_not_found: '&8[&c!&8] &fPlayer is not online!'
+      invalid_number_format: '&8[&c!&8] &rInvalid number.'
+      invalid_world: '&8[&c!&8] &fInvalid world.'
+   afk:
+      is_now_afk: '&8[&c!&8] &f%player% is now afk!'
+      is_no_more_afk: '&8[&c!&8]&f %player% is no more afk!'   
+   broadcast:
+      prefix: '&8[&6Broadcast&8] &f'
+      usage: '&8[&c!&8] &rUsage: /broadcast <text>'
+   clear:
+      inventory_cleared: '&8[&c!&8] &fYour inventory has been cleared.'
+   time:
+      day: '&8[&c!&8] &fThe time has been changed to &cday &ror &c0 ticks&r.'
+      night: '&8[&c!&8] &fThe time has been changed to &cnight &ror &c14000 ticks&r.'
+   disposal:
+      inv_title: 'Disposal'
+      opening_disposal: '&8[&c!&8] &fOpening a disposal for you...'
+   enderchest:
+      opening_enderchest: '&8[&c!&8] &fOpening your Ender Chest...'
+      opening_enderchest_other: '&8[&c!&8] &fOpening the Ender Chest of %player%...'
+   fly:
+      fly_disabled: '&8[&c!&8] &fFly mode is now disabled.'
+      fly_enabled: '&8[&c!&8] &fFly mode is now enabled!'
+   gamemode:
+      usage: '&8[&c!&8] &rUsage: /gamemode <0/1/2/3>'
+      adventure: '&8[&c!&8] &fSet own gamemode to Adventure.'
+      survival: '&8[&C!&8]&r Set own gamemode to Survival.'
+      creative: '&8[&c!&8] &rSet own gamemode to Creative.'
+      spectator: '&8[&C!&8] &rSet own gamemode to Spectator.'
+   hat:
+      cannot_be_air: '&8[&c!&8] &fHat cannot be air!'
+      enjoy_your_hat: '&8[&c!&8] &fEnjoy your new hat!'
+   heal:
+      you_have_been_healed: '&8[&c!&8] &fYou have been healed!'
+   helpop:
+      usage: '&8[&c!&8] &rUsage: /helpop <text>'
+      helpop_format: '&4&lHELPOP &8- &7%player% &8: &r%message%'
+   kickall:
+      kicked_all_players: '&8[&c!&8] &fKicked all players from the server.'
+   memory:
+      asignated_memory: '&8[&c!&8] &fAssignated memory: &e%memory% MB'
+      max_memory: '&8[&c!&8] &fMax memory: &e%memory% MB'
+      free_memory: '&8[&c!&8] &rFree memory: &e%memory% MB'
+      worlds: '&8[&c!&8] &fWorld &e%world%&f; type: &e%worldtype%&r; loaded chunks: &e%loadedchunks%&r; entities: &e%entities%&r; tile entities: &e%tileentities%&r.'
+      worldtype_overworld: 'Overworld'
+      worldtype_nether: 'Nether'
+      worldtype_end: 'End'
+   online:
+      count: '&8[&c!&8] &rRight now, the server has &a%count% &rplayers.'
+      players_prefix: '&7- Players: &r%names%'
+   spawn:
+      spawn_set: '&8[&c!&8] &rThe spawn was set to your location.'
+      not_set: '&8[&c!&8] &rThe spawn was &nnot&r set!'
+      teleported_to_spawn: '&8[&c!&8] &fYou have been teleported to the spawn.'
+   skull:
+      skull_added: '&8[&c!&8] &rCheck your inventory, the skull of %skullowner% was added to your inventory.'
+   suicide:
+      already_dead: '&8[&c!&8] &fYou are already dead!'
+      message: '&8[&c!&8] &oYou killed yourself...'
+      broadcast: '&8[&c!&8] &f%player% killed himself.'
+   teleport:
+      teleported_to_target: '&8[&c!&8] &rYou have been teleported to &b%player%&f.'
+      player_teleported_to_target: '&8[&c!&8] &rYou teleported &b%player%&f to &b%target%&r.'
+      usage: '&8[&c!&8] &fUsage: /teleport <player> [target]'
+   top:
+      teleported_to_the_top: '&8[&c!&8]&r You have been teleported to the top.'
+   tps:
+      enabling_actionbar: '&8[&c!&8] &fEnabling the TPS actionbar...'
+      disabling_actionbar: '&8[&c!&8] &rDisabling the TPS actionbar...'
+   vanish:
+      enabled: '&8[&c!&8] &fYour vanish has been enabled!'
+      disabled: '&8[&c!&8] &rYour vanish has been disabled!'
+   workbench:
+      opening_a_workbench: '&8[&c!&8] &rOpening a workbench for you!'
+   chat:
+      chat_locked: '&8[&c!&8] &fYou locked the chat!'
+      chat_locked_broadcast: '&8[&c!&8] &fChat is now locked by &b%player%&f! '
+      chat_unlocked: '&8[&c!&8] &fYou unlocked the chat!'
+      chat_unlocked_broadcast: '&8[&c!&8] &fChat is now unlocked by &b%player%&f! '
+      chat_cleared: '&8[&c!&8] &fYou cleared the chat!'
+      chat_cleared_broadcast: '&8[&c!&8] &fChat was cleaned by &b%player%&f!'
+      chat_is_locked: '&8[&c!&8] &fChat is locked! Please try again later.'
+      usage: '&8[&c!&8] &rUsage: /chat <lock/clear>'
+      others:
+         format: '%prefix% &7%displayname%&r %suffix% &8:&r %message%'
+   ping:
+      message: '&8[&c!&8] &rYour ping is about of %ping% ms.'
+      message_other: '&8[&c!&8] &rThe ping of %player% is about of %ping% ms.'
+   whois:
+      true: '&a&lYES'
+      false: '&c&lNO'
+      dead: '&c&lDEAD'
+      player_name: '&8[ &c&kiii&r &5%player% &c&kiii&r &8]'
+      player_gamemode: '&7- Gamemode: &r'
+      player_ip: '&7- IP: &r'
+      player_food: '&7- Food level: &r'
+      player_health: '&7- Health level: &r'
+      player_flymode: '&7- Fly mode: &r'
+      player_coordinates: '&7- Coordinates: &r'
+      usage: '&8[&c!&8] &rUsage: /whois <player>'
+   customtext:
+      permission: 'simplessentials.customtext'
+      text:
+      - "&eCustomText"
+      - "&oThis message is configurable from the messages.yml file!"
+      - "&oHere you can put something like 'You can purchase rank at example.buycraft.net'"
+      - "&oor the thing that you want."
+      - "Thanks for using &a&lSIMPLESSENTIALS&r!"
+   rules:
+      title: '&8&m------------&r &e&lRULES &8&m------------'
+      rules:
+      - "&c1- &rDon't be toxic"
+      - "&c2- &rDon't use hacks"
+      - "&c3- &rDon't do spam"
+   nick:
+      usage: '&8[&c!&8] &rUsage: /nick <player> <displayname> or /nick <displayname>'
+      displayname_set: '&8[&c!&8] &rDisplayname set!'
+      displayname_set_other: '&8[&c!&8] &rDisplayname for %player% set!'
+      displayname_updated: '&8[&c!&8] &rYour displayname is now "%displayname%"'
+      displayname_reset: '&8[&c!&8] &rYour displayname was reset to their defaults!'
+   # This methods are not working or are disabled.
+   # If you use the economy system, remove the # to make it work.
+   economy:
+      balance: '&8[&c!&8] &rYour balance is $%bal%'
+      balance_other: '&8[&c!&8] &rThe balance of %player% is $%bal%'
+      not_enough_money_exception: '&8[&c!&8] &rYou don''t have enough money to do that.'
+      pay:
+         usage: '&8[&c!&8] &rUsage: /pay <player> [amount]'
+         pay_success: '&8[&c!&8] &rYou paid $%bal% to %player%!'
+         cannot_pay_yourself: '&8[&c!&8] &rYou can''t pay yourself.'
+         you_received: '&8[&c!&8] &rYou received $%bal% from %player%!'
+         
+   
+   #   economy:
+   #      not_enough_money: '&8[&c!&8] &fNot enough money!'
+   #      balance: '&8[&c!&8] &fYour balance is $%bal%'
+   #      balance_other: '&8[&c!&8] &rThe balance of %player% is $%bal%'
+   #      available_commands: '&8[&c!&8] &fEconomy available commands:'
+   #      give: '&f/eco give <player> <amount>'
+   #      give_usage: '&8[&c!&8] &fCorrect usage: /eco give <player> <amount>'
+   #      take: '&f/eco take <player> <amount>'
+   #      take_usage: '&8[&c!&8] &fCorrect usage: /eco take <player> <amount>'
+   #      set: '&f/eco set <player> <amount>'
+   #      set_usage: '&8[&c!&8] &fCorrect usage: /eco set <player> <amount>'
+   #      account:
+   #         credited: '&8[&c!&8] &fYou received $%bal%, congratulations!'
+   #         you_credited_to_player: '&8[&c!&8] &fYou added $%bal% to the account of %player%!'
+   #         withdrawn: '&8[&c!&8] &f$%bal% has been withdrawn from your account.'
+   #         you_taked_from_player: '&8[&c!&8] &fYou taked $%bal% from the account of %player%!'
+   #         balance_updated: '&8[&c!&8] &fYour money was set to $%bal%!'
+   #         set_balance_of_player: '&8[&c!&8] &fSet %player% balance''s to $%bal%!'
+   #         you_paid: '&8[&c!&8] &fYou paid $%paybal% to %player% and now you have $%bal%.'
+   #         has_paid_you: '&8[&c!&8] &f%player% has paid you $%paybal% and now you have $%bal%'
+   #         cannot_pay_yourself: '&8[&c!&8] &rYou cannot pay yourself.'
+   others:
+      motd_message: '&5Welcome to my Minecraft Server using Simplessentials!'
+      server_is_full: '&eThe server is full, try again later.'
+      whitelist_is_on: '&cThe server is in maintenance.'
+      join_message: '&e%player% is now &oonline&e!'
+      leave_message: '&c%player% is now &ooffline&c!'

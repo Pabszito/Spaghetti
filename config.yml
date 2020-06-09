@@ -1,0 +1,31 @@
+Config:
+   customJoinMessage: true
+   customQuitMessage: true
+   autoRespawn: false
+   defaultKickReason: 'Kicked from server.'
+   checkForUpdates: true
+   enableCustomMotd: true
+   enableCustomMotdMaxPlayers: false
+   motdMaxPlayers: 100
+   economySettings:
+      defaultBalance: 500
+   protection:
+      lobbyMode:
+         enabled: false
+         deniedMessage: true
+         enabledWorlds:
+         - 'Lobby'
+         blockBreak:
+            enabled: true
+            denied: '&8[&c!&8] &rYou can''t break blocks here.'
+         blockPlace:
+            enabled: true
+            denied: '&8[&c!&8] &rYou can''t place blocks here.'
+         pvp:
+            enabled: true
+            denied: '&8[&c!&8] &rYou can''t damage another entities here.'
+         enderPearls:
+            enabled: false
+            denied: '&8[&c!&8] &rYou can''t use ender pearls here.'
+         blockWeather:
+            enabled: true

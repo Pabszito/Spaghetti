@@ -1,0 +1,104 @@
+name: Simplessentials
+version: 1.3.0
+main: me.pabszito.sc.Simplessentials
+author: Pabszito
+description: A alternative for Essentials, developed only for practice.
+softdepend: [Vault]
+
+commands:
+   afk:
+      description: You are away from keyboard?
+      aliases: [awayfromkeyboard,sawayfromkeyboard,safk]
+   rules:
+      description: Shows the rules.
+      aliases: [srules]
+   nick:
+      description: Changes your displayname.
+      aliases: [snick]
+   customtext:
+      description: Shows a customizable text.
+      aliases: [scustomtext] #add aliases here! [example,buy,shop,purchase]
+   tps:
+      description: Enables an actionbar that indicates when tps are low or if all its good.
+      aliases: [stpstest,stps,stps,tpstest,tpsactionbar,stpsactionbar,tpsactionb,stpsactionb,tpsabar,stpsabar]
+   memory:
+      description: Show's the server memory, worlds, etc.
+      aliases: [smemory,slag,lag,gc,sgc]
+   hat:
+      description: Wanna get a hat?
+      aliases: [shat]
+   helpop:
+      description: Get help of a op.
+      aliases: [shelpop,sac,ac]
+   enderchest:
+      description: Opens a enderchest.
+      aliases: [ec,sec,senderchest,enderc,senderc,sechest,echest]
+   workbench:
+      description: Opens a workbench.
+      aliases: [wb,swb,sworkbench,craftingtable,scraftingtable,sctable,scraftingt,craftingt,ctable]
+   fly:
+      description: Disables/enables the flying mode.
+      aliases: [sfly,flymode,sflymode]
+   kickall:
+      description: Kicks all from the server.
+      aliases: [skickall]
+   disposal:
+      description: Open a disposal.
+      aliases: [sdisposal]
+   gamemode:
+      description: Changes your gamemode.
+      aliases: [gm,gamem,gmode,setgm,sgm,ssetgm,sgmode,sgamem,sgamemode]
+   ci:
+      description: Clears your inventory.
+      aliases: [clear,clearinv,cinv,cleari,invc,inventoryclear,clearinventory,sclear,sclearinv,scinv,sclearic,sinvc,sinventoryclear,sclearinventory]
+   simplessentials:
+      description: Reloads the plugin configuration.
+      aliases: [ssimplessentials]
+   heal:
+      description: Heals yourself.
+      aliases: [hmyself,hms,shms,shmyself,sheal]
+   skull:
+      description: Gives you the skull of a player.
+      aliases: [sskull]
+   setspawn:
+      description: Set the server spawn.
+      aliases: [ssetspawn]
+   spawn:
+      description: Teleports you to the server spawn.
+      aliases: [sspawn]
+   suicide:
+      description: Kill yourself.
+      aliases: [ssuicide]
+   teleport:
+      description: Teleports you to another player.
+      aliases: [tp,steleport,stp]
+   broadcast:
+      description: Broadcast something to the server.
+      aliases: [sbc,sbroadcast]
+   top:
+      description: Teleports you to the latest block (Y).
+      aliases: [sstop]
+   night:
+      description: Set the time to night.
+      aliases: [n,sn]
+   day:
+      description: Set the time to day.
+      aliases: [d,sd]
+   ping:
+      description: Shows your ping.
+      aliases: [sping]
+   vanish:
+      description: Vanish yourself or another player.
+      aliases: [v,sv,svanish]
+   online:
+      description: Show's the online players.
+      aliases: [list,slist,sonline,sonlineplayers,onlineplayers]
+   chat:
+      description: Show's the chat options.
+      aliases: [schat,managechat,mchat,smchat,smanagechat]
+   whois:
+      description: Who is that player?
+      aliases: [swhois]
+#   headlist:                  # This command is under development!
+#      description: Head list. #
+#      alises: [sheadlist]     #
